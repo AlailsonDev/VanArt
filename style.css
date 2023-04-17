@@ -199,6 +199,11 @@ hr {
   font-family: "open sans";
 }
 
+.ubscription-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .input-email {
   width: 500px;
   padding: 15px;
@@ -229,4 +234,105 @@ hr {
 
 .social-bottom-img {
   width: 50px;
+}
+
+@media (max-width: 515px) {
+  .menu {
+    display: flex;
+    column-gap: 50px;
+    font-family: "open sans";
+    font-weight: 600;
+    letter-spacing: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .welcome-text-title {
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    font-family: "open sans";
+    font-size: 25px;
+  }
+  .welcome-text-paragraph {
+    padding: 10px;
+    background-color: rgb(58, 57, 57);
+    width: 200px;
+    color: white;
+    font-family: "open sans";
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .subscribe-text {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "open sans";
+    text-align: center;
+  }
+  .input-email {
+    width: 200px;
+    padding: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .menu {
+    display: flex;
+    column-gap: 50px;
+    font-family: "open sans";
+    font-weight: 600;
+    letter-spacing: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+}
+@media (max-width: 330px) {
+  .welcome-text-title {
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    font-family: "open sans";
+    font-size: 25px;
+  }
+  .welcome-text-paragraph {
+    padding: 10px;
+    background-color: rgb(58, 57, 57);
+    width: 200px;
+    color: white;
+    font-family: "open sans";
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .card-img {
+    width: 250px;
+    height: 340px;
+  }
 }
